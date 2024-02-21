@@ -8,7 +8,7 @@ int main()
 {
     double radius;
     double square;
-    printf("Enter the radius of a circle: ");
+    printf("Enter a radius of a circle: ");
     scanf("%lf", &radius);
 
     square = circle_square(&radius);
